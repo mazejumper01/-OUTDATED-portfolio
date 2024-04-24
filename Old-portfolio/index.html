@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="top.js" defer></script>
+    <script src="slider.js"defer></script>
+    <script src="https://kit.fontawesome.com/f023dd87f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+<main>
+  <aside class="top-aside">
+    <h1>Hej og velkommen til mit portfolio</h1>
+  </aside> 
+  
+    <nav class="top-nav">
+        <a href="#section1" class="section-links">Om mig</a>
+
+        <a href="#section2" class="section-links">Ting lavet</a>
+
+        <a href="#section3" class="section-links">Kontakt</a>
+    </nav>
+</main>
+
+<section class="om-mig" id="section1">
+    
+    <p class="om-mig-tekst"> Lorem ipsum dolor sit amet consectetur adipisic Suscipit reprehenderit delectus autem iusto voluptas est sequi velit perspiciatis laudantium, nihil aperiam, quidem iste voluptatibus voluptate maxime odit dolor. Cupiditate doloribus deserunt tempore praesentium dolore voluptatibus, explicabo aperiam, iure consequuntur aut officia reiciendis. Laborum, nam facilis quasi nemo minus vitae voluptatum debitis mollitia consequuntur deserunt.</p>
+    <div class="arrow-down">
+    <h2>Om mig</h2>
+</div>
+    <div class="images">
+    <img src="images/IMG_9736.jpg" alt="Mig" class="img-me">
+    <img src="images/Magnus CV1 (1)-page0001.jpg" alt="mit cv" class="img-me">
+</div>
+</section>
+
+<section class="section-two" id="section2">
+    <h2>Section 2</h2>
+    <div class="slider-container">
+        <figure class="slide fade">
+            <img src="images/Magnus CV1 (1)-page0001.jpg" alt="mit cv">
+        </figure>
+        <figure class="slide fade">
+            <img src="images/Magnus CV1 (1)-page0001.jpg" alt="mit cv">
+        </figure>
+        <figure class="slide fade">
+            <img src="images/Magnus CV1 (1)-page0001.jpg" alt="mit cv">
+        </figure>
+
+        <a class="prev" title="Forrige billede" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" title="Næste billede" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        
+        </div>
+
+    </div>
+</section>
+
+<footer class="section-footer" id="section3">
+    <h2>følg mig</h2>
+    <div class="some-icons">
+        
+    <a href="https://github.com/mazejumper1">
+        <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.instagram.com/magnus.borregaard/">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/magnus.borregaard.90">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="mailto:magnusborregaard05@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+    </div>
+    </a>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71921.47207760563!2d11.671829555806983!3d55.714262866724816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46527c6afedfd99d%3A0xa8ed6daa84f1e868!2sBjergmarken%2C%204300%20Holb%C3%A6k!5e0!3m2!1sen!2sdk!4v1676635818968!5m2!1sen!2sdk"
+     style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</footer>
+
+</body>
+</html>
